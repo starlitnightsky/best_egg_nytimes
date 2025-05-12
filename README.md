@@ -14,7 +14,7 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
-# create local .env with your key
+- create local .env with your key
 
 uvicorn app.main:app --reload  # http://127.0.0.1:8000/docs
 ```
